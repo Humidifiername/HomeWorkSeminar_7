@@ -64,10 +64,6 @@ for (int i = 0; i < massiv.GetLength(0); i++)
         {
             Console.WriteLine($"Значение элемента на позиции {(i)},{(j)} = {massiv[i, j]}");
         }
-        else
-        {
-            Console.WriteLine("Такого элемента нет");
-        }
     }
 }
 
